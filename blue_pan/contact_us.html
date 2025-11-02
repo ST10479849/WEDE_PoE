@@ -42,10 +42,95 @@
     <footer>
          <!--customers to engage and review -->
         <h1>Enage with us</h1>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc96mu38_xGYmwjGFfACptupM_ZBoUKmj2vViDYePwFJKfk9Q/viewform?embedded=true" width="640" height="1488" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <!--iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc96mu38_xGYmwjGFfACptupM_ZBoUKmj2vViDYePwFJKfk9Q/viewform?embedded=true" width="640" height="1488" frameborder="0" marginheight="0" marginwidth="0">Loading--> 
         
     </footer>
     <script src="search.js"></script>
+
+    <!DOCTYPE html>
+
+  <h2>Blue Pan Feedback Form</h2>
+
+  <form id="feedbackForm" onsubmit="return validateForm()">
+    <table>
+      <!-- Name & Surname -->
+      <tr>
+        <td><label for="fullName">Name & Surname:</label></td>
+        <td>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your name and surname">
+        </td>
+      </tr>
+
+      <!-- Email -->
+      <tr>
+        <td><label for="email">Email Address:</label></td>
+        <td>
+          <input type="text" id="email" name="email" placeholder="Enter your email address">
+        </td>
+      </tr>
+
+      <!-- Cellphone -->
+      <tr>
+        <td><label for="cellNumber">Cellphone Number:</label></td>
+        <td>
+          <input type="text" id="cellNumber" name="cellNumber" placeholder="e.g. 0821234567">
+        </td>
+      </tr>
+
+      <!-- Services -->
+      <tr>
+        <td><label>Which of our services are you most interested in?</label></td>
+        <td style="text-align: left;">
+          <input type="checkbox" name="services" value="Cakes/Bakery"> Cakes/Bakery <br>
+          <input type="checkbox" name="services" value="Catering/Decor"> Catering/Decor <br>
+          <input type="checkbox" name="services" value="Baking Lessons"> Baking Lessons <br>
+          <input type="checkbox" name="services" value="Other"> Other <br>
+        </td>
+      </tr>
+
+      <!-- Join Baking Lessons -->
+      <tr>
+        <td><label>Would you join the Baking Lessons in September?</label></td>
+        <td style="text-align: left;">
+          <input type="radio" name="joinLessons" value="Yes"> Yes <br>
+          <input type="radio" name="joinLessons" value="No"> No <br>
+          <input type="radio" name="joinLessons" value="Maybe"> Maybe <br>
+        </td>
+      </tr>
+
+      <!-- Experience Rating -->
+      <tr>
+        <td><label>Rate your experience (1 - 5):</label></td>
+        <td style="text-align: left;">
+          <input type="radio" name="rating" value="1"> 1
+          <input type="radio" name="rating" value="2"> 2
+          <input type="radio" name="rating" value="3"> 3
+          <input type="radio" name="rating" value="4"> 4
+          <input type="radio" name="rating" value="5"> 5
+        </td>
+      </tr>
+
+      <!-- Suggestions -->
+      <tr>
+        <td><label for="suggestions">Any suggestions or ideas you'd love to see?</label></td>
+        <td>
+          <textarea id="suggestions" name="suggestions" rows="4" cols="30" placeholder="Type here..."></textarea>
+        </td>
+      </tr>
+
+      <!-- Buttons -->
+      <tr>
+        <td>
+          <input type="reset" value="Clear">
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  
+  <script src="form_validate.js"></script>
+
 
        
 </body>
