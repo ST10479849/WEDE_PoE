@@ -45,8 +45,7 @@
         <!--iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc96mu38_xGYmwjGFfACptupM_ZBoUKmj2vViDYePwFJKfk9Q/viewform?embedded=true" width="640" height="1488" frameborder="0" marginheight="0" marginwidth="0">Loading--> 
         
         <script src="search.js"></script>
-   </footer>
-  <h2>Blue Pan Feedback Form</h2>
+        <h2>Blue Pan Feedback Form</h2>
 
  <form action="" onsubmit="return validateForm()">
   <table>
@@ -80,19 +79,54 @@
       </td>
     </tr>
 
-    <!-- You can keep the rest of your form below -->
+    <tr>
+        <td><label for="cellNumber">Cellphone number</label></td>
+        <td>
+            <input type="number" id="cellNumber" name="cellNumber" placeholder="e.g 0768453214">
+        </td>
+    </tr>
+    <tr>
+        <td><label>Which of our services are you most interested in?</label></td>
+        <td style="text-align: left;">
+          <input type="checkbox" name="services" value="Cakes/Bakery"> Cakes/Bakery <br>
+          <input type="checkbox" name="services" value="Catering/Decor"> Catering/Decor <br>
+          <input type="checkbox" name="services" value="Baking Lessons"> Baking Lessons <br>
+          <input type="checkbox" name="services" value="Other"> Other <br>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Would you join the Baking Lessons in September?</label></td>
+        <td style="text-align: left;">
+          <input type="radio" name="joinLessons" value="Yes"> Yes <br>
+          <input type="radio" name="joinLessons" value="No"> No <br>
+          <input type="radio" name="joinLessons" value="Maybe"> Maybe <br>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Rate your experience (1 - 5):</label></td>
+        <td style="text-align: left;">
+          <input type="radio" name="rating" value="1"> 1
+          <input type="radio" name="rating" value="2"> 2
+          <input type="radio" name="rating" value="3"> 3
+          <input type="radio" name="rating" value="4"> 4
+          <input type="radio" name="rating" value="5"> 5
+        </td>
+      </tr>
+       <tr>
+        <td><label for="suggestions">Any suggestions or ideas you'd love to see?</label></td>
+        <td>
+          <textarea id="suggestions" name="suggestions" rows="4" cols="30" placeholder="Type here..."></textarea>
+        </td>
+      </tr>
     <tr>
       <td colspan="2">
         <input type="reset" value="Clear">
-        <input type="submit" value="Join">
+        <input type="submit" value="Submit">
       </td>
     </tr>
   </table>
-</form>
-
-
-
-
-       
+ </form>
+ </footer>
+  
 </body>
 </html>
