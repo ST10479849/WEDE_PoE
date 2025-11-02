@@ -3,10 +3,10 @@ function searchSite() {
   const query = document.getElementById("searchInput").value.toLowerCase();
   const pages = {
     "home": "index.html",
-    "about": "about.html",
-    "services": "services.html",
-    "contact": "contact.html",
-    "enquiry": "enquiry.html"
+    "about": "about_us.html",
+    "products and services": "products_services.html",
+    "contact": "contact_us.html",
+    "gallery": "gallery.html"
   };
 
   let found = false;
