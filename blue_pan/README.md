@@ -34,9 +34,10 @@ Wedsite planning and seting up through sitemaps and wireframes. html language us
 25 August about us page was complete,contact was page was complete.
 26 August all remaining pages were complete,Read me document started and code pushed onto github.
 23 September made needed changes to my website taking into consideration part 1 feedback. Changed reference made sure my references were in alphabetic order, also referenced the software used for my wireframes and sitemap. In my propsal, improved the website features and functionalities by mentioning the features and functinalities on each page of the website. Used a Gantt chart to show my timeline and milestons broke the timeline down into days and milestones down to subtasks. Improved my budget added design and wireframes,SEO optimization and content creation. Added the three structural tags for all my pages the header main and footer, added navigation links on my home page as well added comments and the last change/improvemnt i added more content by adding youtube videos on the home page product images on the product and services page and embeded a google form. Updated mt reference list. 
-1 November i added the first interactivity (functionalities) which was the search bar 
-2 November i added the following functionalities the light box, form that validates, i changed the images names to what the image is 
-3 November i added the sitemap and the robots file 
+1 November i added the first interactivity (functionalities) which was the search bar which has an external JS code and links between web pages
+2 November i added the following functionalities the light box, form that validates, i changed the images names to what the image is, linked the 
+pages together added SEO the meta tags the description and keywords
+3 November created and added the sitemap and the robots file 
 
 ###### Reference
 @BMS decor and catering,2025.South African caters.[Facebook].April 12.<https://share.google/images/TYGC2T7LidvmDI7De> [Accessed 12 April 2025]
@@ -64,3 +65,5 @@ For part 2 of the PoE i added Css code to make my website aesthically pleasing a
 ###### Part 3 Details 
 Functionalites were added this is part 3 the final part of the PoE, added functionality to make my website interactive.  
 
+###### Technologies used 
+HTML for structure and content, CSS for styling and an aesthitically pleasing look and lastly java script for interactivity and functional. Google for an embedded googlr form which is now a comment github for version control and publishing 
